@@ -1,0 +1,6 @@
+const x = ["n", "bro", "c", "|"];
+const y = ["d", "n", "l", "bro", "g"];
+
+const elementosNoComunes = y.filter((elemento) => !x.includes(elemento));
+
+console.log(elementosNoComunes);
